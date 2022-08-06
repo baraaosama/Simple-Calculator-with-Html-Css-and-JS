@@ -32,9 +32,15 @@ body {
     align-items: center;
 }
 
+.small-screen {
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+
 .btn {
     width: calc(100%/4 - 3px);
-    height: 70px;
+    height: 60px;
     background-color: hsl(30, 25%, 89%);
     border: none;
     border-radius: 5px;
@@ -48,7 +54,6 @@ body {
 }
 
 #clear {
-    width: calc(50% - 2px);
     background-color: hsl(225, 21%, 49%);
     color: white;
 }
